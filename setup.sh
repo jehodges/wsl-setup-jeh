@@ -21,9 +21,9 @@ bash ./scripts/dotfiles.sh
 bash ./scripts/npm.sh
 
 # Generate SSH key
-if [[ $SSH_EMAIL ]]; then
-  bash ./scripts/ssh.sh
-fi
+#if [[ $SSH_EMAIL ]]; then
+#  bash ./scripts/ssh.sh
+#fi
 
 # Create a directory for projects and development
 echo_info "Creating Developer directory in Home directory..."
